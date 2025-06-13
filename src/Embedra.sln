@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36127.28
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Embedra.Abstraction", "Embedra.Abstraction\Embedra.Abstraction.csproj", "{7566855E-2AF5-41C0-AC33-65B4E4951F27}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Embedra", "Embedra\Embedra.csproj", "{7FBF1470-6FA0-4C9C-921A-20250653B736}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.csproj", "{86536CEA-13F3-4233-AA4B-DFCD809E7F4A}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7566855E-2AF5-41C0-AC33-65B4E4951F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7566855E-2AF5-41C0-AC33-65B4E4951F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7566855E-2AF5-41C0-AC33-65B4E4951F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7566855E-2AF5-41C0-AC33-65B4E4951F27}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7FBF1470-6FA0-4C9C-921A-20250653B736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7FBF1470-6FA0-4C9C-921A-20250653B736}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FBF1470-6FA0-4C9C-921A-20250653B736}.Release|Any CPU.ActiveCfg = Release|Any CPU
