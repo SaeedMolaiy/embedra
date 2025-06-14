@@ -1,8 +1,10 @@
-﻿namespace Embedra
+﻿using System.Text;
+
+namespace Embedra
 {
     public class BinaryPayload : TextBasedPayload
     {
-        public BinaryPayload(string payload) : base(payload)
+        public BinaryPayload(byte[] payload) : base(Convert.ToBase64String(payload), PayloadEncoding.Base64)
         {
         }
 

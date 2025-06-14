@@ -6,6 +6,10 @@
         {
         }
 
+        public TextPayload(string payload, PayloadEncoding encoding) : base(payload, encoding)
+        {
+        }
+
         public override void Accept(IPayloadEmbedder embedder) => embedder.Embed(this);
     }
 }
